@@ -19,8 +19,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solução](https://your-solution-url.com)
-- Live Site URL: [Vercel](https://your-live-site-url.com)
+- Solution URL: [Solução](https://github.com/weslleyvieira-dev/Interactive-Rating-Component)
+- Live Site URL: [Vercel](https://interactive-rating-component-lovat.vercel.app/)
 
 ## My process
 
