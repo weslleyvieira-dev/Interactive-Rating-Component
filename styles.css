@@ -1,0 +1,166 @@
+body {
+  font-family: 'Overpass', 'Poppins', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+  background-color: hsl(216, 12%, 8%);
+}
+
+main .rating {
+  background-color: hsl(213, 19%, 18%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 40vh;
+  width: 35vh;
+  border-radius: 3vh;
+  padding: 0 3vh;
+}
+
+main .rating .star {
+  border-radius: 3vh;
+  width: 1.5vh;
+  height: 1.5vh;
+  padding: 1.5vh;
+  background-color: hsl(213, 19%, 21%);
+}
+
+main .rating h1 {
+  color: hsl(0, 0%, 100%);
+  margin-top: 3vh;
+  margin-bottom: 1vh;
+  font-size: 26px;
+}
+
+main .rating p {
+  color: hsl(217, 12%, 63%);
+  margin-top: 0;
+  line-height: 1.5;
+  font-size: 15px;
+}
+
+main .rating .rating-buttons {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1vh;
+  margin-bottom: 3vh;
+}
+
+main .rating .rating-buttons .rating-btn {
+  background-color: hsl(213, 19%, 21%);
+  color: hsl(217, 12%, 63%);
+  border-color: transparent;
+  font-size: 15px;
+  font-weight: 700;
+  border-radius: 3vh;
+  width: 2vh;
+  height: 2vh;
+  padding: 2.3vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+main .rating .rating-buttons .rating-btn:hover {
+  color: hsl(0, 0%, 0%);
+  background-color: hsl(25, 97%, 53%);
+}
+
+main .rating .rating-buttons .rating-btn:focus {
+  color: hsl(0, 0%, 0%);
+  background-color: hsl(0, 0%, 100%);
+}
+
+main .rating .rating-buttons .rating-btn.selected {
+  color: hsl(0, 0%, 0%);
+  background-color: hsl(0, 0%, 100%);
+}
+
+main .rating .submit-btn {
+  font-family: 'Overpass', 'Poppins', sans-serif;
+  height: 5vh;
+  font-weight: 700;
+  font-size: 15px;
+  border-radius: 3vh;
+  border-color: transparent;
+  color: hsl(0, 0%, 0%);
+  background-color: hsl(25, 97%, 53%);
+  letter-spacing: 0.15em;
+  cursor: pointer;
+}
+
+main .rating .submit-btn:hover {
+  background-color: hsl(0, 0%, 100%);
+}
+
+main .thanks {
+  display: none;
+  background-color: hsl(213, 19%, 18%);
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 40vh;
+  width: 35vh;
+  border-radius: 3vh;
+  padding: 0 3vh;
+}
+
+main .thanks .img-thanks {
+  width: 15vh;
+  height: 10vh;
+  margin: 3vh 0;
+}
+
+main .thanks .your-rating {
+  color: hsl(25, 97%, 53%);
+  background-color: hsl(213, 19%, 21%);
+  padding: 1vh 1.5vh 0.6vh;
+  border-radius: 3vh;
+  margin: 0 0 3vh 0;
+}
+
+main .thanks h1 {
+  color: hsl(0, 0%, 100%);
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  font-size: 26px;
+}
+
+main .thanks .message {
+  color: hsl(217, 12%, 63%);
+  margin-top: 0;
+  line-height: 1.5;
+  font-size: 15px;
+  text-align: center;
+}
+
+footer {
+  position: fixed;
+  bottom: 2vh;
+  font-size: 12px;
+  text-align: center;
+  color: hsl(0, 0%, 100%);
+}
+
+footer a {
+  color: hsl(228, 45%, 44%);
+}
+
+footer a:hover {
+  color: hsl(228, 45%, 64%);
+}
+
+@media (max-width: 768px) {
+  main .rating {
+    padding-bottom: 1vh;
+  }
+
+  main .thanks {
+    padding-bottom: 1vh;
+  }
+}
